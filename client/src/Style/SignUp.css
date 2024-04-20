@@ -1,0 +1,43 @@
+.SignUp{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 150px auto;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #252934;
+}
+.Personal-informations{
+    display: flex;
+    justify-content: space-between;
+}
+.Personal-informations > *{
+    width: 48%;
+}
+.Account-informations{
+    display: flex;
+    flex-direction: column;
+}
+.SignUp p{
+    margin-top: 10px;
+    color: #75777D;
+}
+.SignUpBtn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #04BDBC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: white;
+}
+
+.SignUp span{
+    color: #a4acf7;
+    cursor: pointer;
+}
+.SignUpBtn:hover{
+    background-color: #06BFAD;
+}

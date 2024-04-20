@@ -34,6 +34,7 @@
     text-align: center;
 
 }
+
 .forgetPWD{
     margin-top: 10px;
     text-align: right;
@@ -65,7 +66,6 @@
     text-align: center;
     color: #a4acf7;
     cursor: pointer;
+    text-decoration: none;
 }
-.signUpLink:hover{
-    text-decoration: underline;
-}
+

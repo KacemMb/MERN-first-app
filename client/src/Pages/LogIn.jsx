@@ -4,6 +4,7 @@ import PasswordInput from '../Components/PasswordInput'
 import LogBtn from '../Components/LogBtn'
 import '../Style/LogIn.css'
 import RememberMe from '../Components/RememberMe'
+import { Link } from 'react-router-dom'
 
 const LogIn = () => {
   return (
@@ -16,7 +17,7 @@ const LogIn = () => {
             <p className='forgetPWD'>forget password</p>
         </div>
         <LogBtn name='Log In' />
-        <p className='signUpP'>you don't have an account! <span className='signUpLink'> sign up</span> </p>
+        <p className='signUpP'>you don't have an account! <Link to={'/Sign-up'} > <span className='signUpLink'> sign up</span> </Link> </p>
     </div>
   )
 }
