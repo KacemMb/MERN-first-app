@@ -1,0 +1,71 @@
+.LogIn {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 150px auto;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #252934;
+}
+
+.LogBtn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #04BDBC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: white;
+}
+
+.LogBtn:hover {
+    background-color: #06BFAD;
+}
+
+.FormInput {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #30373F;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+.forgetPWD{
+    margin-top: 10px;
+    text-align: right;
+    color: #a4acf7;
+    cursor: pointer;
+}
+.forgetPWD:hover{
+    text-decoration: underline;
+}
+.RememberMe{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #8f8f8f;
+}
+.RememberMe >*{
+    margin-right: 10px;
+}
+.forget{
+    display: flex;
+    justify-content: space-between;
+}
+.signUpP{
+    margin-top: 10px;
+    color: #75777D;
+}
+.signUpLink{
+    margin-top: 10px;
+    text-align: center;
+    color: #a4acf7;
+    cursor: pointer;
+}
+.signUpLink:hover{
+    text-decoration: underline;
+}
